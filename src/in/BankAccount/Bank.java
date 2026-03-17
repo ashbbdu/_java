@@ -19,7 +19,12 @@ public class Bank {
     }
 
     public void deposit (double _amount) {
-        this.balance = this.balance + _amount;
+        if(_amount > 0) {
+            this.balance = this.balance + _amount;
+        } else {
+            System.out.println("Amount should be greater than 0 !");
+        }
+
     }
 
     public void withdraw (double _amount) {
