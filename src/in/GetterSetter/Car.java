@@ -9,6 +9,8 @@ public class Car {
 
     Car () {}
 
+//    the idea is make variables private and make the methods public
+
     public String getColor () {
         return color;
     }
@@ -16,7 +18,6 @@ public class Car {
     public void setColor (String _color) {
         this.color = _color;
     }
-
-
+    
 
 }
