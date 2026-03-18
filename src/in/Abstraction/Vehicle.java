@@ -1,8 +1,16 @@
 package in.Abstraction;
 
+// abstract keyword here will disable the creation of the object
+
+// Why do we use abstract classes?
+// To define common structure + rules for child classes.
+//"An abstract class is a class that cannot be instantiated and may contain abstract methods. It is used to provide a base structure that must be extended by subclasses."
+
+
 public abstract class Vehicle {
     private int numberOfTyres;
 
+    public abstract void makeStartVoice ();
 
     public Vehicle(int numberOfTyres) {
         this.numberOfTyres = numberOfTyres;
