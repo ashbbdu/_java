@@ -18,4 +18,11 @@ public class Car extends Vehicle {
     public void makeStartVoice () {
         System.out.println("Car Grrrrr");
     }
+
+
+//    we can set this here also and in Vehicle also
+//    @Override
+//    public void getSetGo () {
+//        System.out.println("Get Set Goooo !");
+//    }
 }

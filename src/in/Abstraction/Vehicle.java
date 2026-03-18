@@ -7,10 +7,12 @@ package in.Abstraction;
 //"An abstract class is a class that cannot be instantiated and may contain abstract methods. It is used to provide a base structure that must be extended by subclasses."
 
 
-public abstract class Vehicle {
+public abstract class Vehicle implements Transport {
     private int numberOfTyres;
 
     public abstract void makeStartVoice ();
+
+
 
     public Vehicle(int numberOfTyres) {
         this.numberOfTyres = numberOfTyres;
@@ -27,4 +29,12 @@ public abstract class Vehicle {
     public void commute () {
         System.out.println("Going....");
     }
+
+
+    @Override
+    public void getSetGo () {
+        System.out.println("Get Set Goooo !");
+    }
+
+
 }

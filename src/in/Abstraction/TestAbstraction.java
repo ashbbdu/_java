@@ -6,6 +6,8 @@ public class TestAbstraction {
         Car c1 = new Car();
 
         c1.makeStartVoice();
+        c1.getSetGo();
+
 
     }
 }
