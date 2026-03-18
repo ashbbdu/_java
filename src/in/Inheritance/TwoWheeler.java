@@ -2,7 +2,8 @@ package in.Inheritance;
 
 public class TwoWheeler extends Vehicle {
     TwoWheeler () {
-        numberOfTyres = 2;
+//        numberOfTyres = 2;
+        setNumberOfTyres(2);
     }
 
     public void balance () {
