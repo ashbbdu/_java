@@ -3,10 +3,17 @@ package in.Inheritance;
 public class Vehicle {
 //    public int numberOfTyres;
 
-    private int numberOfTyres;
+//    private int numberOfTyres;
+    // it is advised to use protected in inheritance
+    protected int numberOfTyres;
 
     public void setNumberOfTyres (int numberOfTyres) {
         this.numberOfTyres = this.numberOfTyres + numberOfTyres;
+    }
+
+    @Override
+    public String toString () {
+        return "To string over-ride";
     }
 
     public void commute () {

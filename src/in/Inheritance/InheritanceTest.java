@@ -15,5 +15,10 @@ public class InheritanceTest {
         pulsar.commute();
         pulsar.start();
         pulsar.balance();
+
+        System.out.println("Testing Object class methods");
+        System.out.println(vh.hashCode());
+        System.out.println(vh.toString());
+        System.out.println(vh.getClass());
     }
 }
