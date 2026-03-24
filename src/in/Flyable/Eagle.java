@@ -11,4 +11,5 @@ package in.Flyable;
     public void flyable () {
         System.out.println("The bird is flying");
     }
+
 }
