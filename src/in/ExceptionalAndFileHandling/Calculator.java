@@ -19,8 +19,11 @@ public class Calculator {
 //            int c = a / b;
             arr[6] = 10;
             System.out.println(arr[6]);
-        } catch (ArithmeticException e) {
-            System.out.println(e);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("ArrayIndexOutOfBoundsException Error !");
+            System.out.println(e.getMessage());
+        } catch (Throwable t) {
+            System.out.println(t.getMessage());
         }
     }
 }
