@@ -29,6 +29,17 @@ public class QueueTut {
             ll.remove();
         }
 
+        Queue <Integer> l = new LinkedList<>();
+        l.add(1);
+        l.add(5);
+        l.add(2);
+        l.add(3);
+        l.add(4);
+
+        Utility.print(l);
+
+
+
 
 
     }
